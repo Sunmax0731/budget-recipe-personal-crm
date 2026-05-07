@@ -1,7 +1,21 @@
 {
   "product": "budget-recipe-personal-crm",
+  "repository": "Sunmax0731/budget-recipe-personal-crm",
+  "githubUrl": "https://github.com/Sunmax0731/budget-recipe-personal-crm",
   "tag": "v0.1.0-alpha.1",
-  "status": "pending-release",
+  "releaseUrl": "https://github.com/Sunmax0731/budget-recipe-personal-crm/releases/tag/v0.1.0-alpha.1",
+  "prerelease": true,
+  "assetCount": 3,
+  "assets": [
+    "budget-recipe-personal-crm-docs.zip",
+    "manual-test.md",
+    "strict-manual-test-addendum.md"
+  ],
+  "latestCheck": {
+    "exitCode": 1,
+    "isLatest": false,
+    "evidence": "releases/latest returned 404 or did not return this prerelease tag"
+  },
   "manualTest": "not-run-by-codex",
-  "generatedAt": "2026-05-07T23:55:49Z"
+  "checkedAt": "2026-05-07T23:56:01Z"
 }
