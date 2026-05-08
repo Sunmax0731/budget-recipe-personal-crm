@@ -2,37 +2,59 @@
   "product": "budget-recipe-personal-crm",
   "repository": "Sunmax0731/budget-recipe-personal-crm",
   "githubUrl": "https://github.com/Sunmax0731/budget-recipe-personal-crm",
-  "tag": "v0.1.0-alpha.1",
   "releaseUrl": "https://github.com/Sunmax0731/budget-recipe-personal-crm/releases/tag/v0.1.0-alpha.1",
+  "tag": "v0.1.0-alpha.1",
   "prerelease": true,
-  "assetCount": 3,
-  "assets": [
-    "budget-recipe-personal-crm-docs.zip",
-    "manual-test.md",
-    "strict-manual-test-addendum.md"
-  ],
-  "latestCheck": {
-    "exitCode": 1,
-    "isLatest": false,
-    "evidence": "releases/latest returned 404 or did not return this prerelease tag"
-  },
-  "manualTest": "not-run-by-codex",
-  "checkedAt": "2026-05-07T23:56:01Z",
   "latest": false,
-  "platformRuntimeGate": "dist/platform-runtime-gate-result.json",
-  "platformType": "windows-local-app",
+  "latestCheck": {
+    "endpoint": "not-found-or-no-stable-release",
+    "latestTag": null,
+    "latestIsThisPrerelease": false
+  },
+  "assetCount": 3,
+  "assets": {
+    "required": [
+      "dist/budget-recipe-personal-crm-docs.zip",
+      "docs/manual-test.md",
+      "docs/strict-manual-test-addendum.md"
+    ],
+    "actualNames": [
+      "budget-recipe-personal-crm-docs.zip",
+      "manual-test.md",
+      "strict-manual-test-addendum.md"
+    ],
+    "actualCount": 3,
+    "allRequiredPresent": true
+  },
   "qcdsEvaluation": {
     "Quality": "S-",
     "Cost": "S-",
     "Delivery": "S-",
-    "Satisfaction": "S-",
-    "capReason": "manual-test-not-run-by-codex"
+    "Satisfaction": "S-"
   },
-  "github": {
-    "repo": "Sunmax0731/budget-recipe-personal-crm",
-    "url": "https://github.com/Sunmax0731/budget-recipe-personal-crm",
-    "releaseUrl": "https://github.com/Sunmax0731/budget-recipe-personal-crm/releases/tag/v0.1.0-alpha.1",
-    "prerelease": true,
-    "latest": false
+  "platformRuntimeGate": {
+    "product": "budget-recipe-personal-crm",
+    "platformType": "windows-local-app",
+    "pass": true,
+    "method": "runtime-gate",
+    "manualTest": "not-run-by-codex",
+    "packageTest": true
+  },
+  "automatedTests": [
+    {
+      "command": "npm test",
+      "result": "passed"
+    }
+  ],
+  "manualTest": "not-run-by-codex",
+  "git": {
+    "ahead": 0,
+    "behind": 0,
+    "status": "",
+    "localCodex": [
+      "codex/closed-alpha-release"
+    ],
+    "remoteCodex": [],
+    "clean": false
   }
 }
