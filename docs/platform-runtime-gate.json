@@ -1,0 +1,11 @@
+{
+  "product": "budget-recipe-personal-crm",
+  "title": "家計・レシピ・個人CRM",
+  "domain": "WindowsApp",
+  "ideaNo": 8,
+  "platformType": "windows-local-app",
+  "expectedPublicTarget": "GitHub Release / BOOTH",
+  "browser": null,
+  "android": null,
+  "evidence": "dist/platform-runtime-gate-result.json"
+}

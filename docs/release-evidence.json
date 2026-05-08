@@ -17,5 +17,22 @@
     "evidence": "releases/latest returned 404 or did not return this prerelease tag"
   },
   "manualTest": "not-run-by-codex",
-  "checkedAt": "2026-05-07T23:56:01Z"
+  "checkedAt": "2026-05-07T23:56:01Z",
+  "latest": false,
+  "platformRuntimeGate": "dist/platform-runtime-gate-result.json",
+  "platformType": "windows-local-app",
+  "qcdsEvaluation": {
+    "Quality": "S-",
+    "Cost": "S-",
+    "Delivery": "S-",
+    "Satisfaction": "S-",
+    "capReason": "manual-test-not-run-by-codex"
+  },
+  "github": {
+    "repo": "Sunmax0731/budget-recipe-personal-crm",
+    "url": "https://github.com/Sunmax0731/budget-recipe-personal-crm",
+    "releaseUrl": "https://github.com/Sunmax0731/budget-recipe-personal-crm/releases/tag/v0.1.0-alpha.1",
+    "prerelease": true,
+    "latest": false
+  }
 }
